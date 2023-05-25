@@ -108,3 +108,16 @@ particlesJS("particles-js", {
 	},
 	retina_detect: true,
 });
+
+// Mengambil elemen body dan toggle
+const body = document.querySelector("body");
+const toggle = document.getElementById("mode-toggle");
+
+// Menambahkan event listener pada toggle
+toggle.addEventListener("change", function () {
+	if (toggle.checked) {
+		body.classList.add("mode-malam");
+	} else {
+		body.classList.remove("mode-malam");
+	}
+});
