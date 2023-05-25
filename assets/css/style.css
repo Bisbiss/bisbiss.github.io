@@ -1,0 +1,34 @@
+/* Kustomisasi Warna */
+.bg-teal-custom {
+	background-color: #008080;
+}
+
+.text-teal-custom {
+	color: #008080;
+}
+
+.hover\:bg-teal-custom:hover {
+	background-color: #006666;
+}
+
+.hover\:text-teal-custom:hover {
+	color: #006666;
+}
+
+/* Lebar Kartu */
+.card-width {
+	max-width: 800px;
+}
+
+/* Animasi Latar Belakang */
+#particles-js {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #008080;
+	background-image: url("");
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
